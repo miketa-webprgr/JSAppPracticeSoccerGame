@@ -1,0 +1,7 @@
+.left_right, .shoot_options, #shoot{
+  display: none;
+}
+
+body{
+  text-align: center;
+}

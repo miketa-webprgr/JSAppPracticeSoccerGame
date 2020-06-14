@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>サッカーゲーム：蒼き伝説</title>
+  <meta name="description" content="ディスクリプの内容記載" />
+  <meta name="keywords" content="キーワード記載" />
+  <link href="style.css" rel="stylesheet" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <!-- <script src="js/common.js" ></script> -->
+</head>
+
+<body>
+
+  <div>
+    <div id="wrapper">
+
+    <div id="header">
+      <h2>サッカーゲーム：蒼き伝説</h2>
+      <h2 id="challenge">久保さんを目指して挑戦だ！</h2>
+      <br>
+    </div>
+    
+    <div id=distance>自陣ゴール前からドリブルで駆け抜け、シュートを決めろ！</div>
+    <div id="message"></div>
+    <br>
+
+    <div id="footer">
+      <button onclick="dribble()" class="dribble_shoot" id="dribble" >ドリブル</button>
+      <!-- <button onclick="shoot()" class="dribble_shoot" id="shoot">シュート</button> -->
+      <button onclick="goLeft(vsDefender) " class="left_right" id="left">左にドリブル</button>
+      <button onclick="goRight(vsDefender) " class="left_right" id="right">右にドリブル</button>
+      <button onclick="chooseUpperLeft(shoot)" class="shoot_options" id="shoot_upper_left">「豪快なシュートを左上へ！」</button>
+      <button onclick="chooseUpperRight(shoot)" class="shoot_options" id="shoot_upper_right">「豪快なシュートに右上へ！」</button>
+      <br>
+      <button onclick="chooseLowerLeft(shoot)" class="shoot_options" id="shoot_lower_left">「ピンポイントに左下隅へ」</button>
+      <button onclick="chooseLowerRight(shoot)" class="shoot_options" id="shoot_lower_right">「ピンポイントに右下隅へ」</button>
+    </div>
+
+  <script src = "myscript.js"></script>
+
+</body>
+
+</html>
