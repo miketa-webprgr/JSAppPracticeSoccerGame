@@ -1,5 +1,5 @@
 # サッカーゲーム：Legend of Blue
-某コミックをモチーフにして、JSのゲーム（ポチポチ押すだけ）を初めて作ってみた
+某コミックをモチーフにして、JSのゲーム（ポチポチ押すだけ）を初めて作ってみた  
 https://miketa-webprgr.github.io/JSAppPracticeSoccerGame/
 
 ## ゲームの説明
